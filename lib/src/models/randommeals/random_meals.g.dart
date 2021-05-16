@@ -16,7 +16,7 @@ RandomMeals _$RandomMealsFromJson(Map<String, dynamic> json) {
 }
 
 Map<String, dynamic> _$RandomMealsToJson(RandomMeals instance) =>
-    <String, dynamic>{'meals': instagitnce.randomMealsItem};
+    <String, dynamic>{'meals': instance.randomMealsItem};
 
 RandomMealsItem _$RandomMealsItemFromJson(Map<String, dynamic> json) {
   return RandomMealsItem(
